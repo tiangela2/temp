@@ -1,1 +1,3 @@
-CMD ["/bin/sh", "-c", "echo 'It works! '"]
+FROM ubuntu:20.04
+
+RUN apt-get update
